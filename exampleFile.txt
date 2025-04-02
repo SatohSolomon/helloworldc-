@@ -1,3 +1,11 @@
 This is a line.
 This is another line.
 C++ is amazing.
+
+
+INSERT INTO employees (employee_id, first_name, last_name, contract_duration, salary, department_id, location)
+VALUES
+    (12, 'Solo', 'Doni', INTERVAL '1 year', 50000.00, 'Lilongwe'),
+    (13, 'Janala', 'Mith', INTERVAL '6 months', 60000.00, 'Blantyre'),
+    (14, 'Chael', 'Son', INTERVAL '2 years', 75000.00, 'Mzuzu'),
+    (4, 'Emina', 'Will', INTERVAL '3 months', 45000.00, 'Zomba');
