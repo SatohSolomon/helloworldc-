@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-    ofstream Myfile("exampleFile.txt");
+    ofstream Myfile("exampleFile2.txt");
 
     Myfile.close();
 
